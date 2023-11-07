@@ -1,5 +1,6 @@
+import { ProSkeleton } from '@ant-design/pro-components';
 const LoadingPage = () => {
-    return <>11</>;
+    return <ProSkeleton/>;
 };
 
 export default LoadingPage;

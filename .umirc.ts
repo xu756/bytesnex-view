@@ -6,9 +6,7 @@ export default defineConfig({
     model: {},
     initialState: {},
     request: {},
-    layout: {
-        title: 'bytesnex-view',
-    },
+    layout: {},
     routes: [
         {
             path: '/',
