@@ -12,13 +12,13 @@ const RightContent=()=>{
     );
 };
 
-const Footer=()=>{
-    return (
-        <>
-        footer
-        </>
-    );
-};
+// const Footer=()=>{
+//     return (
+//         <>
+//         footer
+//         </>
+//     );
+// };
 
 
 
@@ -33,7 +33,7 @@ export const layout:RunTimeLayoutConfig = () => {
         fixSiderbar:true,
         siderWidth:200,
         rightContentRender: () => <RightContent />,
-        footerRender: () => <Footer />,
+        // footerRender: () => <Footer />,
         token:{
         }
     };
