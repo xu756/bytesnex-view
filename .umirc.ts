@@ -16,9 +16,8 @@ export default defineConfig({
             name: '首页',
             path: '/home',
             component: '@/pages/Home',
-            access:'user',
+            access: 'user',
         },
     ],
     npmClient: 'pnpm',
-
 });

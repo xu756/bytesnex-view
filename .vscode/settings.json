@@ -1,4 +1,3 @@
 {
-    "cSpell.words": ["bytesnex"],
-    "deepscan.enable": true
+    "deepscan.ignoreConfirmWarning": true
 }
