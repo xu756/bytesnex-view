@@ -11,10 +11,12 @@ export default defineConfig({
         {
             path: '/',
             redirect: '/home',
+            layout: false,
         },
         {
             name: '首页',
             path: '/home',
+            layout: false,
             component: '@/pages/Home',
             access: 'user',
         },

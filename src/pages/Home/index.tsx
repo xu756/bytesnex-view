@@ -1,4 +1,4 @@
-import './index.less';
+import styles from  './index.less';
 import { useMount } from 'ahooks';
 
 const HomePage = () => {
@@ -6,7 +6,7 @@ const HomePage = () => {
         console.log(process.env);
     });
     return(
-        <div className="home-page">
+        <div className={styles.container}>
             <h1>Home Page</h1>
         </div>
     );
